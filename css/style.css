@@ -1,0 +1,87 @@
+body {
+    background-image: url('../img/bg-patten.webp');
+    background-repeat: repeat;
+}
+
+.h-100vh {
+    min-height: 100vh;
+}
+
+.max-1-lines,.max-2-lines,.max-3-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.max-1-lines {
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+}
+
+.max-2-lines {
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.max-3-lines {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}
+
+.fs-8 {
+    font-size: 8px;
+}
+
+.fs-9 {
+    font-size: 9px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-11 {
+    font-size: 11px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+img {
+    object-fit: cover;
+    object-position: 50% 50%
+}
